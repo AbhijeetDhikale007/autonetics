@@ -4,7 +4,7 @@
 	import favicon from "$lib/assets/favicon.ico";
 	import { onMount } from "svelte";
 	import Lenis from "lenis";
-	import Header from "$lib/components/Header.svelte";
+	import Header from "$components/Header.svelte";
 
 	let { children } = $props();
 
