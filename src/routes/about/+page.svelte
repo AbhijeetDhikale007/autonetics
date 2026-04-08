@@ -1,11 +1,11 @@
 <script lang="ts">
 	let capabilities = [
-		{ text: "Design, Selection, Sizing and Detailed Engineering of Instrumentation & Control", icon: "i-ph-drafting-tube-fill" },
-		{ text: "Designing Special Purpose Machines (SPM)", icon: "i-ph-circuitry-fill" },
+		{ text: "Design, Selection, Sizing and Detailed Engineering of Instrumentation & Control", icon: "i-ph-pencil-ruler-fill" },
+		{ text: "Designing Special Purpose Machines (SPM)", icon: "i-ph-cpu-fill" },
 		{ text: "Automation & Electrical Systems for Process Industries", icon: "i-ph-factory-fill" },
 		{ text: "Advanced PLC/SCADA & DCS Systems", icon: "i-ph-desktop-fill" },
 		{ text: "Embedded and Robotics Solutions", icon: "i-ph-robot-fill" },
-		{ text: "Powerpack Hydraulic and Pneumatic Systems", icon: "i-ph-engine-fill" },
+		{ text: "Powerpack Hydraulic and Pneumatic Systems", icon: "i-ph-gear-six-fill" },
 		{ text: "Sensors, Transmitters, On-Off & Control Valves", icon: "i-ph-sliders-horizontal-fill" },
 		{ text: "Installation and Calibration of Instruments", icon: "i-ph-wrench-fill" },
 		{ text: "VFD, Servo drives and Soft-starter panels", icon: "i-ph-lightning-fill" },
@@ -52,7 +52,7 @@
 			<div class="bg-white dark:bg-slate-900 p-10 rounded-[2rem] shadow-xl shadow-blue-900/5 dark:shadow-none border border-slate-200 dark:border-slate-800 relative overflow-hidden group hover:-translate-y-1 transition-transform">
 				<div class="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 rounded-full blur-3xl group-hover:bg-indigo-500/20 transition-colors"></div>
 				<div class="w-14 h-14 rounded-2xl bg-indigo-100 dark:bg-indigo-900/40 text-indigo-600 dark:text-indigo-400 flex items-center justify-center mb-6 shrink-0 relative z-10 border border-indigo-200 dark:border-indigo-800/50">
-					<span class="i-ph-rocket-launch-fill text-3xl"></span>
+					<span class="i-ph-target-fill text-3xl"></span>
 				</div>
 				<h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4 relative z-10">Our Mission</h2>
 				<p class="text-slate-600 dark:text-slate-400 leading-relaxed relative z-10">
