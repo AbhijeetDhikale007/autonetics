@@ -25,7 +25,7 @@
 						src={client.src} 
 						alt={client.name} 
 						loading="lazy"
-						class="w-full h-full object-contain filter grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
+						class="w-full h-full object-contain"
 					/>
 				</div>
 			{/each}
