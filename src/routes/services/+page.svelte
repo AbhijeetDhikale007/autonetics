@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ClientsGallery from '$components/ClientsGallery.svelte';
 	let services = [
 		{
 			title: "Plant Automation",
@@ -159,3 +160,5 @@
 		</div>
 	</div>
 </section>
+
+<ClientsGallery />

@@ -1,4 +1,6 @@
 <script lang="ts">
+	import ClientsGallery from '$components/ClientsGallery.svelte';
+
 	let capabilities = [
 		{ text: "Design, Selection, Sizing and Detailed Engineering of Instrumentation & Control", icon: "i-ph-pencil-ruler-fill" },
 		{ text: "Designing Special Purpose Machines (SPM)", icon: "i-ph-cpu-fill" },
@@ -108,3 +110,5 @@
 		</div>
 	</div>
 </section>
+
+<ClientsGallery />
