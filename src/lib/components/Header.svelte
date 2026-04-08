@@ -89,11 +89,11 @@
 			>
 				{#if isDark}
 					<span
-						class="i-ph-sun-fill text-xl text-amber-400 absolute transition-all rotate-0 scale-100"
+						class="i-solar-sun-bold text-xl text-amber-400 absolute transition-all rotate-0 scale-100"
 					></span>
 				{:else}
 					<span
-						class="i-ph-moon-stars-fill text-xl text-slate-700 absolute transition-all rotate-0 scale-100"
+						class="i-solar-moon-bold text-xl text-slate-700 absolute transition-all rotate-0 scale-100"
 					></span>
 				{/if}
 			</button>
