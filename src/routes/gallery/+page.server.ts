@@ -1,10 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 
-export const load = () => {
+export const load = async ({ fetch }) => {
 	const result = {
 		college: [] as string[],
-		inhouse: [] as string[]
+		inhouse: [] as string[],
+		industrialVideos: [] as string[]
 	};
 
 	try {
@@ -26,6 +27,21 @@ export const load = () => {
 		}
 	} catch (e) {
 		console.error("Error reading gallery directories:", e);
+	}
+
+	try {
+		// Fetch latest videos from YouTube RSS
+		const feedRes = await fetch('https://www.youtube.com/feeds/videos.xml?channel_id=UCOfwRpXaZ1-o6E3qVZjQqLA');
+		if (feedRes.ok) {
+			const text = await feedRes.text();
+			const regex = /<yt:videoId>(.*?)<\/yt:videoId>/g;
+			let match;
+			while ((match = regex.exec(text)) !== null) {
+				result.industrialVideos.push(match[1]);
+			}
+		}
+	} catch (e) {
+		console.error("Error fetching YouTube feed:", e);
 	}
 
 	return { gallery: result };
