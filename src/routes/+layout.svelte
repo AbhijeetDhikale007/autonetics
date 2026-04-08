@@ -1,7 +1,7 @@
 <script lang="ts">
 	import "virtual:uno.css";
 	import "../app.css";
-	import favicon from "$lib/assets/favicon.svg";
+	import favicon from "$lib/assets/favicon.ico";
 	import { onMount } from "svelte";
 	import Lenis from "lenis";
 	import Header from "$lib/components/Header.svelte";
