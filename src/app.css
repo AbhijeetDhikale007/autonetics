@@ -10,6 +10,10 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+a {
+  text-decoration: none;
+}
+
 .dark {
   @apply bg-slate-950 text-slate-100;
 }
