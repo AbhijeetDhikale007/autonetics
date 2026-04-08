@@ -1,5 +1,6 @@
 <script lang="ts">
   const currentYear = new Date().getFullYear();
+	import Ico from "./Ico.svelte";
 </script>
 
 <footer class="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300 relative z-20">
@@ -17,17 +18,17 @@
         
         <!-- Social Icons -->
         <div class="flex flex-wrap gap-3 pt-2">
-          <a href="https://www.linkedin.com/in/autonetics-training-center-887268141/" target="_blank" aria-label="LinkedIn" class="grid place-items-center w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all">
-            <span class="i-ph-linkedin-logo-fill text-xl"></span>
+          <a href="https://www.linkedin.com/in/autonetics-training-center-887268141/" target="_blank" aria-label="LinkedIn" class="grid place-items-center w-10 h-10 rounded-full border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all">
+            <Ico name='LinkedIn' />
           </a>
-          <a href="https://x.com/Autonetics123" target="_blank" aria-label="X" class="grid place-items-center w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all">
-            <span class="i-simple-icons-x text-[15px]"></span>
+          <a href="https://x.com/Autonetics123" target="_blank" aria-label="X" class="grid place-items-center w-10 h-10 rounded-full border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all">
+            <Ico name='X' />
           </a>
-          <a href="https://www.youtube.com/channel/UCOfwRpXaZ1-o6E3qVZjQqLA?view_as=subscriber" target="_blank" aria-label="YouTube" class="grid place-items-center w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all">
-            <span class="i-ph-youtube-logo-fill text-xl"></span>
+          <a href="https://www.youtube.com/channel/UCOfwRpXaZ1-o6E3qVZjQqLA?view_as=subscriber" target="_blank" aria-label="YouTube" class="grid place-items-center w-10 h-10 rounded-full border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all">
+            <Ico name='YouTube' />
           </a>
-          <a href="https://www.facebook.com/autoneticstrainingcenter/" target="_blank" aria-label="Facebook" class="grid place-items-center w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all">
-            <span class="i-ph-facebook-logo-fill text-xl"></span>
+          <a href="https://www.facebook.com/autoneticstrainingcenter/" target="_blank" aria-label="Facebook" class="grid place-items-center w-10 h-10 rounded-full border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all">
+            <Ico name='Facebook' />
           </a>
         </div>
       </div>
