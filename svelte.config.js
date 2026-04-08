@@ -14,8 +14,7 @@ const config = {
 		alias: {
 			$data: 'src/data',
 			$store: 'src/Store/Store.js',
-			$components: 'src/lib/components',
-			$clients: 'static/Clients'
+			$components: 'src/lib/components'
 		}
 	}
 };
