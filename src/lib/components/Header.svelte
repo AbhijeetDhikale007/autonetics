@@ -56,7 +56,7 @@
 				class="hidden md:flex items-center gap-3 pr-4 border-r border-slate-300 dark:border-slate-700"
 			>
 				<a
-					href="https://linkedin.com"
+					href="https://www.linkedin.com/in/autonetics-training-center-887268141/"
 					target="_blank"
 					aria-label="LinkedIn"
 					class="grid place-items-center w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all"
@@ -64,15 +64,23 @@
 					<span class="i-ph-linkedin-logo-fill text-lg"></span>
 				</a>
 				<a
-					href="https://twitter.com"
+					href="https://x.com/Autonetics123"
 					target="_blank"
-					aria-label="Twitter"
+					aria-label="X"
 					class="grid place-items-center w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all"
 				>
-					<span class="i-ph-twitter-logo-fill text-lg"></span>
+					<span class="i-simple-icons-x text-[14px]"></span>
 				</a>
 				<a
-					href="https://facebook.com"
+					href="https://www.youtube.com/channel/UCOfwRpXaZ1-o6E3qVZjQqLA?view_as=subscriber"
+					target="_blank"
+					aria-label="YouTube"
+					class="grid place-items-center w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all"
+				>
+					<span class="i-ph-youtube-logo-fill text-lg"></span>
+				</a>
+				<a
+					href="https://www.facebook.com/autoneticstrainingcenter/"
 					target="_blank"
 					aria-label="Facebook"
 					class="grid place-items-center w-8 h-8 rounded-full bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all"
