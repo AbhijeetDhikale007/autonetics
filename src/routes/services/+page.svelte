@@ -107,21 +107,19 @@
 				<div class="bg-white dark:bg-slate-900 rounded-2xl shadow-xl shadow-slate-200/50 dark:shadow-none border border-slate-200 dark:border-slate-800 hover:-translate-y-1 transition-transform duration-300 flex flex-col overflow-hidden group">
 					<div class="w-full h-48 relative overflow-hidden bg-slate-950">
 						<img src={service.image} alt={service.title} class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700" />
-						<div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent flex items-end p-6">
 							<div class="w-12 h-12 rounded-xl bg-blue-600/90 backdrop-blur border border-white/10 text-white flex items-center justify-center shrink-0 shadow-lg shadow-blue-900/50">
 								<span class="{service.icon} text-2xl"></span>
-							</div>
 						</div>
 					</div>
-					<div class="p-8 flex flex-col flex-grow">
+					<div class="pt-2 pl-8 pr-8 flex flex-col flex-grow">
 						<h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">{service.title}</h3>
 						<p class="text-slate-600 dark:text-slate-400 mb-6 font-medium text-sm leading-relaxed">
 							{service.description}
 						</p>
-						<div class="mt-auto">
+						<div>
 							<ul class="space-y-3">
 								{#each service.points as point}
-									<li class="flex items-start gap-3 text-sm text-slate-700 dark:text-slate-300">
+									<li class="flex text-sm text-slate-700 dark:text-slate-300">
 										<span class="i-ph-check-circle-fill text-blue-600 dark:text-blue-500 mt-0.5 shrink-0 text-[18px]"></span>
 										<span class="leading-relaxed">{point}</span>
 									</li>
