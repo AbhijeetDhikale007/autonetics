@@ -1,15 +1,15 @@
 <script lang="ts">
 	let clientsInfo = [
-		{ name: "Flair Writing Ltd", src: "https://www.autoneticstraining.com/images/clients/75-FLAIR.png" },
-		{ name: "Avdhoot Heat Treatment", src: "https://www.autoneticstraining.com/images/clients/Avdhoot-uai-258x116.png" },
-		{ name: "CEAT", src: "https://www.autoneticstraining.com/images/clients/ceat.png" },
-		{ name: "Essem", src: "https://www.autoneticstraining.com/images/clients/essem.png" },
-		{ name: "Hind Rectifiers Ltd", src: "https://www.autoneticstraining.com/images/clients/hind-rectifiers-ltd.png" },
-		{ name: "KOSO India", src: "https://www.autoneticstraining.com/images/clients/koso.png" },
-		{ name: "Ruby Mica", src: "https://www.autoneticstraining.com/images/clients/ruby.png" },
-		{ name: "Sanjeev Auto", src: "https://www.autoneticstraining.com/images/clients/Sanjeev-Logo.png" },
-		{ name: "Suzlon", src: "https://www.autoneticstraining.com/images/clients/Suzlon-Energy-Limited.png" },
-		{ name: "Western Drugs", src: "https://www.autoneticstraining.com/images/clients/westurn-drugs_logo.png" }
+		{ name: "Flair Writing Ltd", src: "Clients/Flair.png" },
+		{ name: "Avdhoot Heat Treatment", src: "Clients/Avdhoot.png" },
+		{ name: "CEAT", src: "Clients/Ceat.png" },
+		{ name: "Essem", src: "Clients/essem.png" },
+		{ name: "Hind Rectifiers Ltd", src: "Clients/Hind-rectifiers.png" },
+		{ name: "KOSO India", src: "Clients/Koso.png" },
+		{ name: "Ruby Mica", src: "Clients/Ruby.png" },
+		{ name: "Sanjeev Auto", src: "Clients/Sanjeev.png" },
+		{ name: "Suzlon", src: "Clients/Suzlon-Energy-Limited.png" },
+		{ name: "Western Drugs", src: "Clients/Western-drugs.png" }
 	];
 </script>
 
