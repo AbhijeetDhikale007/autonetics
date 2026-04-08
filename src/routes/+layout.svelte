@@ -5,6 +5,7 @@
 	import { onMount } from "svelte";
 	import Lenis from "lenis";
 	import Header from "$components/Header.svelte";
+	import Footer from "$components/Footer.svelte";
 
 	let { children } = $props();
 
@@ -24,3 +25,5 @@
 <main class="min-h-screen">
 	{@render children()}
 </main>
+
+<Footer />
