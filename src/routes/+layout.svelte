@@ -22,7 +22,7 @@
 
 <Header />
 
-<main class="min-h-screen">
+<main class="min-h-screen max-w-screen">
 	{@render children()}
 </main>
 
