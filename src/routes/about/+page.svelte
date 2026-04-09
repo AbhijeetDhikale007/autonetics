@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ClientsGallery from '$components/ClientsGallery.svelte';
+	import Heading from '$components/Heading.svelte';
 
 	let capabilities = [
 		{ text: "Design, Selection, Sizing and Detailed Engineering of Instrumentation & Control", icon: "i-ph-pencil-ruler-fill" },
@@ -26,7 +27,7 @@
 	<div class="absolute inset-0 bg-[url('/hero_background.png')] bg-cover bg-center bg-fixed opacity-30"></div>
 	<div class="absolute inset-0 bg-gradient-to-br from-blue-950/90 via-slate-900/80 to-slate-950/95"></div>
 	<div class="container mx-auto px-6 relative z-10 text-center">
-		<h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">About Autonetics</h1>
+		<Heading HeadingTitle='About Autonetics'/>
 		<p class="text-lg text-blue-100 max-w-2xl mx-auto opacity-90 leading-relaxed">
 			Driving innovation, technology, and education to make life easier and industries smarter.
 		</p>

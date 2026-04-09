@@ -1,5 +1,7 @@
 <script lang="ts">
 	import ClientsGallery from '$components/ClientsGallery.svelte';
+	import Heading from '$components/Heading.svelte';
+	
 	let services = [
 		{
 			title: "Plant Automation",
@@ -88,7 +90,7 @@
 <section class="w-full bg-slate-900 dark:bg-slate-950 py-24 relative overflow-hidden">
 	<div class="absolute inset-0 bg-gradient-to-br from-blue-900/30 dark:from-blue-900/10 to-transparent"></div>
 	<div class="container mx-auto px-6 relative z-10 text-center">
-		<h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">Our Services</h1>
+		<Heading HeadingTitle='Our Services' />
 		<p class="text-lg text-blue-100 max-w-3xl mx-auto opacity-90 leading-relaxed">
 			Delivering world-class SCADA integration, comprehensive Plant Automation, and specialized industrial engineering solutions.
 		</p>

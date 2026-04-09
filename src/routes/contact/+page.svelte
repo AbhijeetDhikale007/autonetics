@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Ico from '$components/Ico.svelte';
+	import Heading from '$components/Heading.svelte';
 
 	let name = $state('');
 	let email = $state('');
@@ -24,7 +25,7 @@
 <section class="w-full bg-slate-900 dark:bg-slate-950 py-24 relative overflow-hidden">
 	<div class="absolute inset-0 bg-gradient-to-br from-blue-900/30 dark:from-blue-900/10 to-transparent"></div>
 	<div class="container mx-auto px-6 relative z-10 text-center">
-		<h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">Contact Us</h1>
+		<Heading HeadingTitle='Contact Us' />
 		<p class="text-lg text-blue-100 max-w-2xl mx-auto opacity-90 leading-relaxed">
 			Looking for automation solutions, SCADA training, or college level programs? Our team is ready to assist you.
 		</p>

@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Heading from '$components/Heading.svelte';
+	
 	let industrialCourses = [
 		{ name: "Autonetics Certified PG Diploma in Industrial Automation", icon: "i-ph-certificate-fill", link: "/training/autonetics-certified-pg-diploma-in-industrial-automation" },
 		{ name: "Autonetics Certified Automation Engineering", icon: "i-ph-factory-fill", link: "/training/autonetics-certified-automation-engineering" },
@@ -27,7 +29,7 @@
 	<div class="absolute inset-0 bg-[url('/hero_background.png')] bg-cover bg-center bg-fixed opacity-30"></div>
 	<div class="absolute inset-0 bg-gradient-to-br from-blue-950/90 via-slate-900/80 to-slate-950/95"></div>
 	<div class="container mx-auto px-6 relative z-10 text-center">
-		<h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">Our Training Programs</h1>
+		<Heading HeadingTitle='Our Training Programs' />
 		<p class="text-lg text-blue-100 max-w-2xl mx-auto opacity-90 leading-relaxed">
 			Industry-leading courses to bridge the gap between academics and the professional automation world.
 		</p>
