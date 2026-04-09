@@ -319,8 +319,8 @@ export const load = ({ params }) => {
 			title: 'Autonetics Certified Electrical System',
 			icon: 'i-ph-lightning-fill',
 			theme: 'blue',
-			duration: '1.5 Months',
-			image: 'https://images.unsplash.com/photo-1487875961445-47a00398c267?q=80&w=2000&auto=format&fit=crop',
+			duration: '2 Weeks',
+			image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2000&auto=format&fit=crop',
 			sections: [
 				{
 					title: '1) Electrical System',
@@ -375,7 +375,7 @@ export const load = ({ params }) => {
 			title: 'Autonetics Certified Mechatronics System',
 			icon: 'i-ph-robot-fill',
 			theme: 'blue',
-			duration: '1 Month',
+			duration: '2 Weeks',
 			image: 'https://images.unsplash.com/photo-1555664424-778a1e5e1b48?q=80&w=2000&auto=format&fit=crop',
 			sections: [
 				{
