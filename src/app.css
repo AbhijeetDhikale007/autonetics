@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+.font-Arsenal {
+  font-family: 'Arsenal SC', sans-serif;
+}
+
 html,
 body {
   @apply bg-slate-50 text-slate-900;
