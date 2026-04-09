@@ -3,9 +3,17 @@
 	import Ico from "./Ico.svelte";
 
 	let isDark = $state(false);
+	let scrolled = $state(false);
 
 	onMount(() => {
 		isDark = document.documentElement.classList.contains("dark");
+
+		const handleScroll = () => {
+			scrolled = window.scrollY > 20;
+		};
+
+		window.addEventListener("scroll", handleScroll, { passive: true });
+		return () => window.removeEventListener("scroll", handleScroll);
 	});
 
 	function toggleTheme() {
@@ -30,7 +38,10 @@
 </script>
 
 <header
-	class="sticky top-0 z-50 w-full backdrop-blur-md bg-white/70 dark:bg-slate-950/70 border-b border-slate-200 dark:border-slate-800 transition-colors duration-300"
+	class="sticky top-0 z-50 w-full transition-all duration-500
+		{scrolled
+			? 'backdrop-blur-xl bg-white/80 dark:bg-slate-950/80 border-b border-slate-200/80 dark:border-slate-800/80 shadow-sm'
+			: 'bg-transparent border-b border-transparent'}"
 >
 	<div class="container mx-auto px-6 h-20 flex items-center justify-between">
 		<!-- Logo -->
