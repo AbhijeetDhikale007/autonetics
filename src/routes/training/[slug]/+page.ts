@@ -798,7 +798,50 @@ export const load = ({ params }) => {
 				}
 			]
 		},
-		'microcontroller': { title: 'Microcontroller', icon: 'i-ph-cpu-fill', theme: 'indigo' },
+		'microcontroller': {
+			title: 'Microcontroller',
+			icon: 'i-ph-cpu-fill',
+			theme: 'indigo',
+			duration: '',
+			image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop',
+			modules: [
+				{
+					title: 'Module 1: PIC Microcontrollers',
+					hours: '120 hours',
+					rows: [
+						'Simulation Software',
+						'MPLAB IDE',
+						'Digital I/O',
+						'Serial Monitor',
+						'Serial Analog Read',
+						'Analog write (PWM as DAC converter)',
+						'Motor control',
+						'Serial communication (with overview of Bluetooth, GPS, GSM)',
+						'Displays',
+						'UART, SPI, I2C',
+						'Timers, Counters, Interrupts',
+						'Memory Usage',
+						'LIVE PROJECTS'
+					]
+				},
+				{
+					title: 'Module 2: AVR Programming (Arduino Platform)',
+					hours: '24 hours',
+					rows: [
+						'Simulation Software',
+						'Arduino IDE',
+						'Digital I/O',
+						'Serial Monitor',
+						'Serial Analog Read',
+						'Analog write (PWM as DAC converter)',
+						'Motor control',
+						'Serial communication (with overview of Bluetooth, GPS, GSM)',
+						'Displays',
+						'LIVE PROJECTS'
+					]
+				}
+			]
+		},
 		'pcb-designing': { title: 'PCB Designing', icon: 'i-ph-bounding-box-fill', theme: 'indigo' }
 	};
 
