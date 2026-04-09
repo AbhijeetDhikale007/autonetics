@@ -87,15 +87,7 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<section class="w-full bg-slate-900 dark:bg-slate-950 py-24 relative overflow-hidden">
-	<div class="absolute inset-0 bg-gradient-to-br from-blue-900/30 dark:from-blue-900/10 to-transparent"></div>
-	<div class="container mx-auto px-6 relative z-10 text-center">
-		<Heading HeadingTitle='Our Services' />
-		<p class="text-lg text-blue-100 max-w-3xl mx-auto opacity-90 leading-relaxed">
-			Delivering world-class SCADA integration, comprehensive Plant Automation, and specialized industrial engineering solutions.
-		</p>
-	</div>
-</section>
+<Heading HeadingTitle='Our Services' HeadingDescription='Delivering world-class SCADA integration, comprehensive Plant Automation, and specialized industrial engineering solutions.'/>
 
 <!-- Main Services Section -->
 <section class="py-24 bg-slate-50 dark:bg-[#060813] transition-colors duration-300 relative z-10">

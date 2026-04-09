@@ -15,15 +15,7 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<section class="w-full bg-slate-900 dark:bg-slate-950 py-24 relative overflow-hidden">
-	<div class="absolute inset-0 bg-gradient-to-br from-blue-900/30 dark:from-blue-900/10 to-transparent"></div>
-	<div class="container mx-auto px-6 relative z-10 text-center">
-		<Heading HeadingTitle='Our Gallery' />
-		<p class="text-lg text-blue-100 max-w-2xl mx-auto opacity-90 leading-relaxed">
-			Explore our moments of success, hands-on training sessions, and leading automation deployments.
-		</p>
-	</div>
-</section>
+<Heading HeadingTitle='Our Gallery' HeadingDescription='Explore our moments of success, hands-on training sessions, and leading automation deployments.' />
 
 <!-- Gallery Content -->
 <section class="py-20 bg-slate-50 dark:bg-[#060813] transition-colors duration-300 min-h-[50vh]">

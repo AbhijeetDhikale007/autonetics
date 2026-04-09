@@ -8,16 +8,7 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<section class="w-full bg-slate-900 dark:bg-slate-950 py-24 relative overflow-hidden">
-	<div class="absolute inset-0 bg-[url('/hero_background.png')] bg-cover bg-center bg-fixed opacity-30"></div>
-	<div class="absolute inset-0 bg-gradient-to-br from-blue-950/90 via-slate-900/80 to-slate-950/95"></div>
-	<div class="container mx-auto px-6 relative z-10 text-center">
-		<Heading HeadingTitle='Careers & Placements' />
-		<p class="text-lg text-blue-100 max-w-2xl mx-auto opacity-90 leading-relaxed">
-			Jumpstart your career with 100% placement assistance and rigorous training programs.
-		</p>
-	</div>
-</section>
+<Heading HeadingTitle='Careers & Placements' HeadingDescription='Jumpstart your career with 100% placement assistance and rigorous training programs.' />
 
 <!-- Overview -->
 <section class="py-20 bg-slate-50 dark:bg-[#060813] transition-colors duration-300 relative z-10 -mt-8">
