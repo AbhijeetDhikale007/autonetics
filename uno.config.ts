@@ -26,6 +26,10 @@ export default defineConfig({
         presetWebFonts({
             fonts: {
                 sans: 'Outfit:300,400,500,600,700',
+                Arsenal: {
+                    name: 'Arsenal SC',
+                    weights: ['800']
+                }
             },
         }),
     ],
