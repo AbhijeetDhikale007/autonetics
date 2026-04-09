@@ -1,20 +1,20 @@
 <script lang="ts">
 	let industrialCourses = [
-		{ name: "Autonetics Certified PG Diploma in Industrial Automation", icon: "i-ph-certificate-fill", link: "/autonetics-certified-pg-diploma-in-industrial-automation.html" },
-		{ name: "Autonetics Certified Automation Engineering", icon: "i-ph-factory-fill", link: "/autonetics-certified-automation-engineering.html" },
-		{ name: "Autonetics Certified PLC Programmer", icon: "i-ph-desktop-fill", link: "/autonetics-certified-plc-programmer.html" },
-		{ name: "Autonetics Certified Electrical System", icon: "i-ph-lightning-fill", link: "/autonetics-certified-electrical-system.html" },
-		{ name: "Autonetics Certified Mechatronics System", icon: "i-ph-robot-fill", link: "/autonetics-certified-mechatronics-system.html" },
-		{ name: "Autonetics Certified SCADA Developer", icon: "i-ph-chart-line-up-fill", link: "/autonetics-certified-scada-developer.html" },
-		{ name: "Autonetics Certified Embedded System Designer", icon: "i-ph-cpu-fill", link: "/autonetics-certified-embedded-system-designer.html" }
+		{ name: "Autonetics Certified PG Diploma in Industrial Automation", icon: "i-ph-certificate-fill", link: "/training/autonetics-certified-pg-diploma-in-industrial-automation" },
+		{ name: "Autonetics Certified Automation Engineering", icon: "i-ph-factory-fill", link: "/training/autonetics-certified-automation-engineering" },
+		{ name: "Autonetics Certified PLC Programmer", icon: "i-ph-desktop-fill", link: "/training/autonetics-certified-plc-programmer" },
+		{ name: "Autonetics Certified Electrical System", icon: "i-ph-lightning-fill", link: "/training/autonetics-certified-electrical-system" },
+		{ name: "Autonetics Certified Mechatronics System", icon: "i-ph-robot-fill", link: "/training/autonetics-certified-mechatronics-system" },
+		{ name: "Autonetics Certified SCADA Developer", icon: "i-ph-chart-line-up-fill", link: "/training/autonetics-certified-scada-developer" },
+		{ name: "Autonetics Certified Embedded System Designer", icon: "i-ph-cpu-fill", link: "/training/autonetics-certified-embedded-system-designer" }
 	];
 
 	let embeddedCourses = [
-		{ name: "Advanced Microcontroller", icon: "i-ph-cpu-fill", link: "/advanced-microcontroller.html" },
-		{ name: "Embedded Professional", icon: "i-ph-laptop-fill", link: "/embedded-professional.html" },
-		{ name: "Languages", icon: "i-ph-code-fill", link: "/languages.html" },
-		{ name: "Microcontroller", icon: "i-ph-cpu-fill", link: "/microcontroller.html" },
-		{ name: "PCB Designing", icon: "i-ph-bounding-box-fill", link: "/pcb-designing.html" } 
+		{ name: "Advanced Microcontroller", icon: "i-ph-cpu-fill", link: "/training/advanced-microcontroller" },
+		{ name: "Embedded Professional", icon: "i-ph-laptop-fill", link: "/training/embedded-professional" },
+		{ name: "Languages", icon: "i-ph-code-fill", link: "/training/languages" },
+		{ name: "Microcontroller", icon: "i-ph-cpu-fill", link: "/training/microcontroller" },
+		{ name: "PCB Designing", icon: "i-ph-bounding-box-fill", link: "/training/pcb-designing" } 
 	];
 </script>
 
