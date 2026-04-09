@@ -522,7 +522,73 @@ export const load = ({ params }) => {
 				}
 			]
 		},
-		'advanced-microcontroller': { title: 'Advanced Microcontroller', icon: 'i-ph-cpu-fill', theme: 'indigo' },
+		'advanced-microcontroller': {
+			title: 'Advanced Microcontroller',
+			icon: 'i-ph-cpu-fill',
+			theme: 'indigo',
+			duration: '',
+			image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop',
+			modules: [
+				{
+					title: 'Module 1: Linux Systems',
+					hours: '24 hours',
+					rows: [
+						'Introduction to Linux',
+						'Linux Command line',
+						'Linux shell',
+						'Understanding Linux file filesystem',
+						'Managing Filesystem',
+						'Software installation',
+						'Editors',
+						'Vim',
+						'Nano',
+						'and perl'
+					]
+				},
+				{
+					title: 'Module 2: ARM Microcontroller',
+					hours: '120 hours',
+					rows: [
+						'Introduction to Embedded System and Digital World',
+						'Introduction to Microcontroller',
+						'Detailed Introduction to Development tools',
+						'Working with ARM Microcontroller',
+						'Embedded C Programming of LPC and Basic Internal Peripherals of ARM Controller',
+						'Programming of Advanced Internal Peripherals of ARM Controller',
+						'Interfacing of External Peripherals to controller',
+						'Motor control',
+						'Serial communication (with overview of Bluetooth, GPS, GSM)',
+						'Displays',
+						'UART/SPI/I2C',
+						'Timers, Counters, Interrupts',
+						'Motor control',
+						'Serial communication (with overview of Bluetooth, GPS, GSM)',
+						'Displays',
+						'Live projects'
+					]
+				},
+				{
+					title: 'Module 3: Raspberry Pi',
+					hours: '72 hours',
+					rows: [
+						'Introduction to Raspberry Pi',
+						'Preparing Your Raspberry PI OS',
+						'Embedded Linux',
+						'Remote Access',
+						'GUI, file system and user management',
+						'Python',
+						'GPIO Programming, digital io',
+						'Hardware interfacing',
+						'Motors',
+						'Digital I/O',
+						'Sensors',
+						'Displays',
+						'GUI and software designing',
+						'IoT Systems'
+					]
+				}
+			]
+		},
 		'embedded-professional': { title: 'Embedded Professional', icon: 'i-ph-laptop-fill', theme: 'indigo' },
 		'languages': { title: 'Languages', icon: 'i-ph-code-fill', theme: 'indigo' },
 		'microcontroller': { title: 'Microcontroller', icon: 'i-ph-cpu-fill', theme: 'indigo' },

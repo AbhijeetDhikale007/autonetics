@@ -121,6 +121,70 @@
 				</a>
 			</div>
 
+		{:else if course.modules}
+			<!-- Course Image -->
+			{#if course.image}
+				<div class="w-full h-72 md:h-[420px] rounded-3xl overflow-hidden mb-14 relative shadow-2xl group">
+					<img src={course.image} alt={course.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="eager" />
+					<div class="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent"></div>
+				</div>
+			{/if}
+
+			<!-- Syllabus Heading -->
+			<div class="mb-10">
+				<h2 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-1 flex items-center gap-3">
+					<span class="i-ph-list-bullets-fill text-indigo-500 text-3xl"></span>
+					Syllabus
+				</h2>
+				<div class="h-1 w-16 bg-gradient-to-r from-indigo-500 to-purple-400 rounded-full mt-3"></div>
+			</div>
+
+			<!-- Modules as Tables -->
+			<div class="space-y-10">
+				{#each course.modules as mod}
+					<div class="bg-white dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+						<!-- Module Header -->
+						<div class="flex flex-wrap items-center justify-between gap-3 px-6 py-4 bg-gradient-to-r from-indigo-600/10 to-purple-500/5 dark:from-indigo-900/30 dark:to-purple-900/10 border-b border-slate-200 dark:border-slate-800">
+							<div class="flex items-center gap-3">
+								<span class="i-ph-book-open-fill text-indigo-500 dark:text-indigo-400 text-xl shrink-0"></span>
+								<h3 class="text-base md:text-lg font-bold text-slate-900 dark:text-white">{mod.title}</h3>
+							</div>
+							{#if mod.hours}
+								<span class="px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 dark:text-indigo-400 text-xs font-bold border border-indigo-200 dark:border-indigo-800">{mod.hours}</span>
+							{/if}
+						</div>
+						<!-- Table -->
+						<div class="overflow-x-auto">
+							<table class="w-full text-sm">
+								<thead>
+									<tr class="bg-slate-50 dark:bg-slate-800/50 border-b border-slate-200 dark:border-slate-700">
+										<th class="px-5 py-3 text-left font-semibold text-slate-500 dark:text-slate-400 w-16">Sr. No.</th>
+										<th class="px-5 py-3 text-left font-semibold text-slate-500 dark:text-slate-400">Title</th>
+									</tr>
+								</thead>
+								<tbody>
+									{#each mod.rows as row, i}
+										<tr class="border-b border-slate-100 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/30 transition-colors {i % 2 === 0 ? '' : 'bg-slate-50/50 dark:bg-slate-800/20'}">
+											<td class="px-5 py-3 text-slate-500 dark:text-slate-500 font-mono text-xs">{i + 1}</td>
+											<td class="px-5 py-3 text-slate-700 dark:text-slate-300">{row}</td>
+										</tr>
+									{/each}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				{/each}
+			</div>
+
+			<!-- Enroll CTA -->
+			<div class="mt-16 text-center">
+				<p class="text-slate-500 dark:text-slate-400 mb-6 text-lg">Ready to advance your career?</p>
+				<a href="/contact" class="inline-flex items-center gap-2 px-10 py-4 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-lg shadow-lg shadow-indigo-500/30 transition-all hover:-translate-y-0.5">
+					Enroll in this Course
+					<span class="i-ph-arrow-right-bold"></span>
+				</a>
+			</div>
+
 		{:else}
 			<!-- Placeholder for courses with no content yet -->
 			<div class="bg-white dark:bg-slate-900 rounded-3xl p-12 text-center border border-slate-200 dark:border-slate-800 shadow-xl">
