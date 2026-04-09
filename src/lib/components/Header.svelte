@@ -35,7 +35,7 @@
 	<div class="container mx-auto px-6 h-20 flex items-center justify-between">
 		<!-- Logo -->
 		<a href="/" class="flex items-center gap-2 group">
-			<img src="logo.png" alt="Autonetics Automation" class="h-10" />
+			<img src="/logo.png" alt="Autonetics Automation" class="h-10" />
 		</a>
 
 		<!-- Navigation Nav -->
