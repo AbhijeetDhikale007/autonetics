@@ -589,7 +589,154 @@ export const load = ({ params }) => {
 				}
 			]
 		},
-		'embedded-professional': { title: 'Embedded Professional', icon: 'i-ph-laptop-fill', theme: 'indigo' },
+		'embedded-professional': {
+			title: 'Embedded Systems',
+			icon: 'i-ph-laptop-fill',
+			theme: 'indigo',
+			duration: '',
+			image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop',
+			modules: [
+				{
+					title: 'Module 1: Linux Systems',
+					hours: '24 hours',
+					rows: [
+						'Introduction to Linux',
+						'Linux Command line',
+						'Linux shell',
+						'Understanding Linux filesystem',
+						'Managing Filesystem',
+						'Software installation',
+						'Editors',
+						'Vim',
+						'Nano',
+						'and perl'
+					]
+				},
+				{
+					title: 'Module 2: Advanced C Programming',
+					hours: '95 hours',
+					rows: [
+						'Introduction',
+						'Data Types',
+						'Operators',
+						'Control Statements',
+						'Functions',
+						'Storage classes',
+						'Arrays',
+						'Strings',
+						'Pointers',
+						'Structures',
+						'Union',
+						'File I/O',
+						'Preprocessor',
+						'Bit manipulations',
+						'Linked List',
+						'Stack',
+						'Queue',
+						'Trees',
+						'Linux programming'
+					]
+				},
+				{
+					title: 'Module 3: Python',
+					hours: '24 hours',
+					rows: [
+						'Introduction',
+						'Variables',
+						'Data Types',
+						'Operators',
+						'Control Statements',
+						'Functions',
+						'Modules',
+						'Lists',
+						'Tuples',
+						'Dictionary',
+						'File I/O'
+					]
+				},
+				{
+					title: 'Module 4: PIC Microcontrollers',
+					hours: '20 hours',
+					rows: [
+						'Architecture',
+						'I/O Ports',
+						'Timers',
+						'UART',
+						'SPI / I2C',
+						'ADC',
+						'PWM',
+						'Interrupts'
+					]
+				},
+				{
+					title: 'Module 5: AVR Programming (Arduino Programming)',
+					hours: '24 hours',
+					rows: [
+						'Introduction to Arduino',
+						'IDE Setup',
+						'Digital I/O',
+						'Analog I/O',
+						'PWM',
+						'Serial Communication',
+						'Sensors interfacing',
+						'Motor control',
+						'Display interfacing',
+						'Bluetooth / WiFi modules'
+					]
+				},
+				{
+					title: 'Module 6: ARM Microcontroller',
+					hours: '60 hours',
+					rows: [
+						'Introduction to Embedded System and Digital World',
+						'Introduction to Microcontroller',
+						'Detailed Introduction to Development tools',
+						'Working with ARM Microcontroller',
+						'Embedded C Programming of LPC and Basic Internal Peripherals of ARM Controller',
+						'Programming of Advanced Internal Peripherals of ARM Controller',
+						'Interfacing of External Peripherals to controller',
+						'Motor control',
+						'Serial communication (with overview of Bluetooth, GPS, GSM)',
+						'Displays',
+						'UART/SPI/I2C',
+						'Timers, Counters, Interrupts',
+						'Live projects'
+					]
+				},
+				{
+					title: 'Module 7: Raspberry Pi',
+					hours: '36 hours',
+					rows: [
+						'Introduction to Raspberry Pi',
+						'Preparing Your Raspberry PI OS',
+						'Embedded Linux',
+						'Remote Access',
+						'GUI, file system and user management',
+						'Python',
+						'GPIO Programming, digital io',
+						'Hardware interfacing',
+						'Motors',
+						'Sensors',
+						'Displays',
+						'IoT Systems'
+					]
+				},
+				{
+					title: 'Module 8: PCB Designing',
+					hours: '20 hours',
+					rows: [
+						'Introduction to PCB Design',
+						'PCB Layout Design Principles',
+						'Schematic Capture',
+						'Component Placement',
+						'Routing',
+						'Design Rule Check (DRC)',
+						'Gerber File Generation',
+						'PCB Fabrication overview'
+					]
+				}
+			]
+		},
 		'languages': { title: 'Languages', icon: 'i-ph-code-fill', theme: 'indigo' },
 		'microcontroller': { title: 'Microcontroller', icon: 'i-ph-cpu-fill', theme: 'indigo' },
 		'pcb-designing': { title: 'PCB Designing', icon: 'i-ph-bounding-box-fill', theme: 'indigo' }
