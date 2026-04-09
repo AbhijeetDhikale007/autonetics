@@ -737,7 +737,67 @@ export const load = ({ params }) => {
 				}
 			]
 		},
-		'languages': { title: 'Languages', icon: 'i-ph-code-fill', theme: 'indigo' },
+		'languages': {
+			title: 'Languages',
+			icon: 'i-ph-code-fill',
+			theme: 'indigo',
+			duration: '',
+			image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2000&auto=format&fit=crop',
+			modules: [
+				{
+					title: 'Module 1: Advanced C Programming',
+					hours: '126 hours',
+					rows: [
+						'Overview',
+						'Environment Setup',
+						'Program Structure',
+						'Basic Syntax',
+						'Data Types',
+						'Variables',
+						'Constants',
+						'Storage Classes',
+						'Operators',
+						'Decision Making',
+						'Loops',
+						'Functions',
+						'Scope Rules',
+						'Arrays',
+						'Pointers',
+						'Strings',
+						'Structures',
+						'Unions',
+						'Bit Fields',
+						'Typedef',
+						'Input & Output',
+						'File I/O',
+						'Pre-processors',
+						'Header Files',
+						'Type Casting'
+					]
+				},
+				{
+					title: 'Module 2: Python',
+					hours: '',
+					rows: [
+						'Overview',
+						'Environment Setup',
+						'Basic syntax',
+						'Variable types',
+						'Basic Operators',
+						'Decision Making',
+						'Loops',
+						'Numbers',
+						'Strings',
+						'Lists',
+						'Tuples',
+						'Functions',
+						'Modules',
+						'File I/O',
+						'Exceptions'
+					]
+				}
+			]
+		},
 		'microcontroller': { title: 'Microcontroller', icon: 'i-ph-cpu-fill', theme: 'indigo' },
 		'pcb-designing': { title: 'PCB Designing', icon: 'i-ph-bounding-box-fill', theme: 'indigo' }
 	};
