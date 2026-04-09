@@ -842,7 +842,36 @@ export const load = ({ params }) => {
 				}
 			]
 		},
-		'pcb-designing': { title: 'PCB Designing', icon: 'i-ph-bounding-box-fill', theme: 'indigo' }
+		'pcb-designing': {
+			title: 'PCB Designing',
+			icon: 'i-ph-bounding-box-fill',
+			theme: 'indigo',
+			duration: '',
+			image: 'https://images.unsplash.com/photo-1597852074816-d933c7d2b988?q=80&w=2000&auto=format&fit=crop',
+			modules: [
+				{
+					title: 'PCB Designing Curriculum',
+					hours: '',
+					rows: [
+						'Introduction to Basic Elements',
+						'Introduction to Proteus (Electronic Product Design Software)',
+						'PCB Designing in Proteus',
+						'EMC interference Precautions',
+						'Heating Component Precautions',
+						'Gerber file generation',
+						'Industrial Standards',
+						'Hand on PCB Fabrication',
+						'Etching',
+						'Drilling',
+						'Component Placing Rules',
+						'Soldering',
+						'Tinning',
+						'Troubleshooting',
+						'PCB repairs'
+					]
+				}
+			]
+		}
 	};
 
 	const course = coursesData[slug];
