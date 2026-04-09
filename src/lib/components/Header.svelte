@@ -71,7 +71,7 @@
 					href="https://www.linkedin.com/in/autonetics-training-center-887268141/"
 					target="_blank"
 					aria-label="LinkedIn"
-					class="grid place-items-center w-8 h-8 rounded-full text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all"
+					class="grid place-items-center w-8 h-8 rounded-full text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all"
 				>
 					<Ico name="LinkedIn" />
 				</a>
@@ -79,7 +79,7 @@
 					href="https://x.com/Autonetics123"
 					target="_blank"
 					aria-label="X"
-					class="grid place-items-center w-8 h-8 rounded-full text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all"
+					class="grid place-items-center w-8 h-8 rounded-full text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all"
 				>
 					<Ico name="X" />
 				</a>
@@ -87,7 +87,7 @@
 					href="https://www.youtube.com/channel/UCOfwRpXaZ1-o6E3qVZjQqLA?view_as=subscriber"
 					target="_blank"
 					aria-label="YouTube"
-					class="grid place-items-center w-8 h-8 rounded-full text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all"
+					class="grid place-items-center w-8 h-8 rounded-full text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all"
 				>
 					<Ico name="YouTube" />
 				</a>
@@ -95,7 +95,7 @@
 					href="https://www.facebook.com/autoneticstrainingcenter/"
 					target="_blank"
 					aria-label="Facebook"
-					class="grid place-items-center w-8 h-8 rounded-full text-slate-600 dark:text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:text-blue-400 dark:hover:bg-slate-800 transition-all"
+					class="grid place-items-center w-8 h-8 rounded-full text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all"
 				>
 					<Ico name="Facebook" />
 				</a>
