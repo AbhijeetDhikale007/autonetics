@@ -53,7 +53,7 @@
 		<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
 			{#each data.students as student}
 				<div class="group relative bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-blue-500/30 dark:hover:border-blue-500/30 transition-all duration-300 flex flex-col items-center text-center overflow-hidden">
-					<div class="w-32 h-34 lg:w-42 lg:h-46 rounded-2 overflow-hidden border-[3px] border-white dark:border-slate-700 shadow-md mb-4 bg-slate-200 dark:bg-slate-700 relative z-10 shrink-0">
+					<div class="w-36 h-39 lg:w-42 lg:h-46 rounded-2 overflow-hidden border-[3px] border-white dark:border-slate-700 shadow-md mb-4 bg-slate-200 dark:bg-slate-700 relative z-10 shrink-0">
 						<img src={student.src} alt="Placed Candidate {student.name}" class="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500" loading="lazy" />
 					</div>
 					<h3 class="text-[1.1rem] font-bold text-slate-900 dark:text-white mb-1 relative z-10">{student.name}</h3>
