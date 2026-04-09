@@ -402,7 +402,7 @@ export const load = ({ params }) => {
 			title: 'Autonetics Certified SCADA Developer',
 			icon: 'i-ph-chart-line-up-fill',
 			theme: 'blue',
-			duration: '1.5 Months',
+			duration: '2 Weeks',
 			image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2000&auto=format&fit=crop',
 			sections: [
 				{
@@ -430,7 +430,7 @@ export const load = ({ params }) => {
 			title: 'Autonetics Certified Embedded System Designer',
 			icon: 'i-ph-cpu-fill',
 			theme: 'blue',
-			duration: '2 Months',
+			duration: '1 Month',
 			image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop',
 			sections: [
 				{
