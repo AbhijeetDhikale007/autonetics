@@ -41,8 +41,12 @@
 >
 	<div class="container mx-auto px-6 h-20 flex items-center justify-between">
 		<!-- Logo -->
-		<a href="/" class="flex items-center gap-2 group">
-			<img src="/logo.png" alt="Autonetics Automation" class="h-10" />
+		<a href={resolve("/")} class="flex items-center gap-2 group">
+			<img
+				src={resolve("/logo.png")}
+				alt="Autonetics Automation"
+				class="h-10"
+			/>
 		</a>
 
 		<!-- Desktop Navigation -->
