@@ -43,10 +43,8 @@
 </script>
 
 <header
-	class="sticky top-0 z-50 w-full transition-all duration-500
-		{scrolled || menuOpen
-			? 'backdrop-blur-xl bg-white/80 dark:bg-slate-950/80 border-b border-slate-200/80 dark:border-slate-800/80 shadow-sm'
-			: 'bg-transparent border-b border-transparent'}"
+	class="fixed top-0 z-50 w-full transition-all duration-500
+		backdrop-blur-xl bg-transparent dark:bg-transparent"
 >
 	<div class="container mx-auto px-6 h-20 flex items-center justify-between">
 		<!-- Logo -->
@@ -127,13 +125,17 @@
 			<button
 				onclick={() => (menuOpen = !menuOpen)}
 				class="lg:hidden relative w-10 h-10 rounded-full flex justify-center items-center bg-slate-100 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors"
-				aria-label={menuOpen ? 'Close Menu' : 'Open Menu'}
+				aria-label={menuOpen ? "Close Menu" : "Open Menu"}
 				aria-expanded={menuOpen}
 			>
 				{#if menuOpen}
-					<span class="i-ph-x-bold text-xl text-slate-800 dark:text-slate-200"></span>
+					<span
+						class="i-ph-x-bold text-xl text-slate-800 dark:text-slate-200"
+					></span>
 				{:else}
-					<span class="i-solar-hamburger-menu-bold text-xl text-slate-800 dark:text-slate-200"></span>
+					<span
+						class="i-solar-hamburger-menu-bold text-xl text-slate-800 dark:text-slate-200"
+					></span>
 				{/if}
 			</button>
 		</div>
@@ -141,26 +143,56 @@
 
 	<!-- Mobile Menu Drawer -->
 	{#if menuOpen}
-		<div class="lg:hidden border-t border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-950/95 backdrop-blur-xl">
+		<div
+			class="lg:hidden border-t border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-950/95 backdrop-blur-xl"
+		>
 			<nav class="container mx-auto px-6 py-4 flex flex-col">
 				{#each links as link, i}
 					<a
 						href={link.href}
 						onclick={closeMenu}
 						class="flex items-center gap-3 py-3.5 text-base font-medium text-slate-800 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors
-							{i < links.length - 1 ? 'border-b border-slate-100 dark:border-slate-800/60' : ''}"
+							{i < links.length - 1
+							? 'border-b border-slate-100 dark:border-slate-800/60'
+							: ''}"
 					>
-						<span class="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+						<span
+							class="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"
+						></span>
 						{link.name}
 					</a>
 				{/each}
 
 				<!-- Social icons row in mobile menu -->
 				<div class="flex items-center gap-4 pt-4 mt-2">
-					<a href="https://www.linkedin.com/in/autonetics-training-center-887268141/" target="_blank" aria-label="LinkedIn" class="text-slate-500 hover:text-blue-600 transition-colors w-8 h-8"><Ico name="LinkedIn" /></a>
-					<a href="https://x.com/Autonetics123" target="_blank" aria-label="X" class="text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors w-8 h-8"><Ico name="X" /></a>
-					<a href="https://www.youtube.com/channel/UCOfwRpXaZ1-o6E3qVZjQqLA?view_as=subscriber" target="_blank" aria-label="YouTube" class="text-slate-500 hover:text-red-600 transition-colors w-8 h-8"><Ico name="YouTube" /></a>
-					<a href="https://www.facebook.com/autoneticstrainingcenter/" target="_blank" aria-label="Facebook" class="text-slate-500 hover:text-blue-700 transition-colors w-8 h-8"><Ico name="Facebook" /></a>
+					<a
+						href="https://www.linkedin.com/in/autonetics-training-center-887268141/"
+						target="_blank"
+						aria-label="LinkedIn"
+						class="text-slate-500 hover:text-blue-600 transition-colors w-8 h-8"
+						><Ico name="LinkedIn" /></a
+					>
+					<a
+						href="https://x.com/Autonetics123"
+						target="_blank"
+						aria-label="X"
+						class="text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors w-8 h-8"
+						><Ico name="X" /></a
+					>
+					<a
+						href="https://www.youtube.com/channel/UCOfwRpXaZ1-o6E3qVZjQqLA?view_as=subscriber"
+						target="_blank"
+						aria-label="YouTube"
+						class="text-slate-500 hover:text-red-600 transition-colors w-8 h-8"
+						><Ico name="YouTube" /></a
+					>
+					<a
+						href="https://www.facebook.com/autoneticstrainingcenter/"
+						target="_blank"
+						aria-label="Facebook"
+						class="text-slate-500 hover:text-blue-700 transition-colors w-8 h-8"
+						><Ico name="Facebook" /></a
+					>
 				</div>
 			</nav>
 		</div>
