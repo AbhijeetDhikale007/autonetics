@@ -29,6 +29,10 @@ export default defineConfig({
                 Arsenal: {
                     name: 'Arsenal SC',
                     weights: ['800']
+                },
+                Roboto: {
+                    name: 'Roboto Condensed',
+                    weights: ['300', '400', '500', '700', '800']
                 }
             },
         }),
