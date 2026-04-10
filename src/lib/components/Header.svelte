@@ -157,10 +157,10 @@
 
 				<!-- Social icons row in mobile menu -->
 				<div class="flex items-center gap-4 pt-4 mt-2">
-					<a href="https://www.linkedin.com/in/autonetics-training-center-887268141/" target="_blank" aria-label="LinkedIn" class="text-slate-500 hover:text-blue-600 transition-colors"><Ico name="LinkedIn" /></a>
-					<a href="https://x.com/Autonetics123" target="_blank" aria-label="X" class="text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors"><Ico name="X" /></a>
-					<a href="https://www.youtube.com/channel/UCOfwRpXaZ1-o6E3qVZjQqLA?view_as=subscriber" target="_blank" aria-label="YouTube" class="text-slate-500 hover:text-red-600 transition-colors"><Ico name="YouTube" /></a>
-					<a href="https://www.facebook.com/autoneticstrainingcenter/" target="_blank" aria-label="Facebook" class="text-slate-500 hover:text-blue-700 transition-colors"><Ico name="Facebook" /></a>
+					<a href="https://www.linkedin.com/in/autonetics-training-center-887268141/" target="_blank" aria-label="LinkedIn" class="text-slate-500 hover:text-blue-600 transition-colors w-8 h-8"><Ico name="LinkedIn" /></a>
+					<a href="https://x.com/Autonetics123" target="_blank" aria-label="X" class="text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors w-8 h-8"><Ico name="X" /></a>
+					<a href="https://www.youtube.com/channel/UCOfwRpXaZ1-o6E3qVZjQqLA?view_as=subscriber" target="_blank" aria-label="YouTube" class="text-slate-500 hover:text-red-600 transition-colors w-8 h-8"><Ico name="YouTube" /></a>
+					<a href="https://www.facebook.com/autoneticstrainingcenter/" target="_blank" aria-label="Facebook" class="text-slate-500 hover:text-blue-700 transition-colors w-8 h-8"><Ico name="Facebook" /></a>
 				</div>
 			</nav>
 		</div>
