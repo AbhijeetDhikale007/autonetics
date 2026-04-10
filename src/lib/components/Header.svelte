@@ -3,18 +3,10 @@
 	import Ico from "./Ico.svelte";
 
 	let isDark = $state(false);
-	let scrolled = $state(false);
 	let menuOpen = $state(false);
 
 	onMount(() => {
 		isDark = document.documentElement.classList.contains("dark");
-
-		const handleScroll = () => {
-			scrolled = window.scrollY > 20;
-		};
-
-		window.addEventListener("scroll", handleScroll, { passive: true });
-		return () => window.removeEventListener("scroll", handleScroll);
 	});
 
 	function toggleTheme() {
