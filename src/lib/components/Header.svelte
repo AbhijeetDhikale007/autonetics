@@ -25,18 +25,18 @@
 	}
 
 	const links = [
-		{ name: "About us", href: "/about" },
-		{ name: "Our Services", href: "/services" },
-		{ name: "Training", href: "/training" },
-		{ name: "Gallery", href: "/gallery" },
-		{ name: "Careers", href: "/careers" },
-		{ name: "Contact Us", href: "/contact" },
+		{ name: "ABOUT US", href: "/about" },
+		{ name: "OUR SERVICES", href: "/services" },
+		{ name: "TRAINING", href: "/training" },
+		{ name: "GALLERY", href: "/gallery" },
+		{ name: "CAREERS", href: "/careers" },
+		{ name: "CONTACT US", href: "/contact" },
 	];
 </script>
 
 <header
-	class="fixed top-0 z-50 w-full transition-all duration-500
-		backdrop-blur-xl bg-transparent dark:bg-transparent"
+	class="fixed top-0 z-50 w-full
+		backdrop-blur-2xl bg-transparent dark:bg-transparent"
 >
 	<div class="container mx-auto px-6 h-20 flex items-center justify-between">
 		<!-- Logo -->
@@ -49,7 +49,7 @@
 			{#each links as link}
 				<a
 					href={link.href}
-					class="text-sm font-medium text-slate-900 dark:text-blue-600 hover:text-red-600 dark:hover:text-red-400 transition-colors"
+					class="text-xs font-small text-slate-900 dark:text-white/60 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
 				>
 					{link.name}
 				</a>
