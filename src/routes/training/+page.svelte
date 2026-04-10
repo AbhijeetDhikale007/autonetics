@@ -48,7 +48,7 @@
 					<p class="text-slate-600 dark:text-slate-400 text-lg">Comprehensive programs covering PLCs, SCADA, Drives, and more for modern factories.</p>
 				</div>
 				
-				<div class="space-y-4">
+				<div class="flex flex-col gap-3">
 					{#each industrialCourses as course}
 						<a href={course.link} class="group flex items-center justify-between bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-blue-500/50 transition-all duration-300">
 							<div class="flex items-center gap-4">
@@ -80,7 +80,7 @@
 					<p class="text-slate-600 dark:text-slate-400 text-lg">Master microcontroller programming, PCB designing, and advanced embedded ecosystems.</p>
 				</div>
 				
-				<div class="space-y-4">
+				<div class="flex flex-col gap-3">
 					{#each embeddedCourses as course}
 						<a href={course.link} class="group flex items-center justify-between bg-slate-50 dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-indigo-500/50 transition-all duration-300">
 							<div class="flex items-center gap-4">
