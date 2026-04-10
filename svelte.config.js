@@ -15,6 +15,12 @@ const config = {
 			$data: 'src/data',
 			$store: 'src/Store/Store.js',
 			$components: 'src/lib/components'
+		},
+		paths: {
+			relative: true
+		},
+		prerender: {
+			handleHttpError: 'warn'
 		}
 	}
 };
