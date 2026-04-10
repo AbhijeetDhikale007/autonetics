@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from "svelte";
 	import Ico from "./Ico.svelte";
+	import { resolve } from "$app/paths";
 
 	let isDark = $state(false);
 	let menuOpen = $state(false);
@@ -25,12 +26,12 @@
 	}
 
 	const links = [
-		{ name: "ABOUT US", href: "/about" },
-		{ name: "OUR SERVICES", href: "/services" },
-		{ name: "TRAINING", href: "/training" },
-		{ name: "GALLERY", href: "/gallery" },
-		{ name: "CAREERS", href: "/careers" },
-		{ name: "CONTACT US", href: "/contact" },
+		{ name: "ABOUT US", href: resolve("/about") },
+		{ name: "OUR SERVICES", href: resolve("/services") },
+		{ name: "TRAINING", href: resolve("/training") },
+		{ name: "GALLERY", href: resolve("/gallery") },
+		{ name: "CAREERS", href: resolve("/careers") },
+		{ name: "CONTACT US", href: resolve("/contact") },
 	];
 </script>
 
