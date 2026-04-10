@@ -29,10 +29,10 @@
 		<div class="grid lg:grid-cols-2 gap-16 xl:gap-24">
 			
 			<!-- Left Column: Contact & Location Info -->
-			<div class="space-y-12">
+			<div class="flex flex-col gap-8">
 				<div>
 					<h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-8">Get in Touch</h2>
-					<div class="grid sm:grid-cols-2 gap-8">
+					<div class="grid sm:grid-cols-2 gap-12">
 						<!-- Phone Details -->
 						<div class="group flex gap-4">
 							<div class="shrink-0 w-12 h-12 rounded-xl bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400 flex items-center justify-center transition-transform group-hover:scale-110">
@@ -68,7 +68,7 @@
 				<!-- Address Locations -->
 				<div>
 					<h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-8">Our Locations</h2>
-					<div class="space-y-8">
+					<div class="flex flex-col gap-10">
 						<!-- Address 1 -->
 						<div class="flex gap-4 group">
 							<div class="shrink-0 w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 flex items-center justify-center transition-transform group-hover:scale-110">
@@ -114,7 +114,7 @@
 								id="name" 
 								required 
 								bind:value={name}
-								class="w-[92%] px-4 py-3 rounded-lg bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all placeholder:text-slate-400"
+								class="w-full px-4 py-3 rounded-lg bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all placeholder:text-slate-400"
 								placeholder="Your Name"
 							/>
 						</div>
@@ -127,7 +127,7 @@
 									id="email" 
 									required 
 									bind:value={email}
-									class="w-[83%] px-4 py-3 rounded-lg bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all placeholder:text-slate-400"
+									class="w-full px-4 py-3 rounded-lg bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all placeholder:text-slate-400"
 									placeholder="your@email.com"
 								/>
 							</div>
@@ -138,7 +138,7 @@
 									id="phone" 
 									required 
 									bind:value={phone}
-									class="w-[83%] px-4 py-3 rounded-lg bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all placeholder:text-slate-400"
+									class="w-full px-4 py-3 rounded-lg bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all placeholder:text-slate-400"
 									placeholder="+91 0000000000"
 								/>
 							</div>
@@ -150,7 +150,7 @@
 								id="message" 
 								rows="5" 
 								bind:value={message}
-								class="w-[92%] px-4 py-3 rounded-lg bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all resize-none placeholder:text-slate-400"
+								class="w-full px-4 py-3 rounded-lg bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all resize-none placeholder:text-slate-400"
 								placeholder="Enter your message here..."
 							></textarea>
 						</div>
