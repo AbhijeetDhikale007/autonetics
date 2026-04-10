@@ -66,7 +66,7 @@
 			</div>
 
 			<!-- Sections List -->
-			<div class="space-y-10">
+			<div class="flex flex-col gap-3">
 				{#each course.sections as section}
 					<div class="bg-white dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
 						<!-- Section Title -->
@@ -77,7 +77,7 @@
 
 						<!-- Simple Items List -->
 						{#if section.items}
-							<ul class="px-6 py-5 space-y-2.5">
+							<ul class="px-6 py-5">
 								{#each section.items as item}
 									<li class="flex items-start gap-3 text-slate-600 dark:text-slate-400 text-sm md:text-base">
 										<span class="i-ph-caret-right-fill text-blue-400 mt-0.5 shrink-0"></span>
@@ -140,7 +140,7 @@
 			</div>
 
 			<!-- Modules as Tables -->
-			<div class="space-y-10">
+			<div class="flex flex-col gap-12">
 				{#each course.modules as mod}
 					<div class="bg-white dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
 						<!-- Module Header -->
