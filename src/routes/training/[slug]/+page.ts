@@ -1,4 +1,5 @@
 import { error } from '@sveltejs/kit';
+import { resolve } from '$app/paths';
 
 export const load = ({ params }) => {
 	const slug = params.slug;
@@ -187,7 +188,7 @@ export const load = ({ params }) => {
 			icon: 'i-ph-factory-fill',
 			theme: 'blue',
 			duration: '3 Months (With industrial automation experience letter)',
-			image: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=2000&auto=format&fit=crop',
+			image: resolve('/images/automation-engineering.png'),
 			tags: ['PLC (AB, Mitsubishi, Ge-fanuc)', 'SCADA (Wonderware)', 'Electrical System', 'AutoCAD', 'VFD (Delta)'],
 			sections: [
 				{
@@ -287,7 +288,7 @@ export const load = ({ params }) => {
 			icon: 'i-ph-desktop-fill',
 			theme: 'blue',
 			duration: '1 Month',
-			image: 'https://images.unsplash.com/photo-1581092921461-39b9d08a9b98?q=80&w=2000&auto=format&fit=crop',
+			image: resolve('/images/plc-programmer.jpg'),
 			sections: [
 				{
 					title: '1) PLC (Programmable Logic Controller)',
@@ -594,7 +595,7 @@ export const load = ({ params }) => {
 			icon: 'i-ph-laptop-fill',
 			theme: 'indigo',
 			duration: '',
-			image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop',
+			image: resolve('/images/embedded-systems.jpg'),
 			modules: [
 				{
 					title: 'Module 1: Linux Systems',
@@ -847,7 +848,7 @@ export const load = ({ params }) => {
 			icon: 'i-ph-bounding-box-fill',
 			theme: 'indigo',
 			duration: '',
-			image: 'https://images.unsplash.com/photo-1597852074816-d933c7d2b988?q=80&w=2000&auto=format&fit=crop',
+			image: resolve('/images/pcb-designing.jpg'),
 			modules: [
 				{
 					title: 'PCB Designing Curriculum',
