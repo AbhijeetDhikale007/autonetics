@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { resolve } from "$app/paths";
 
 export const load = () => {
 	let students = [] as Array<{ src: string, name: string }>;
@@ -13,7 +14,7 @@ export const load = () => {
 					let rawName = f.split('.')[0];
 					let displayName = rawName.charAt(0).toUpperCase() + rawName.slice(1);
 					return {
-						src: `/Careers/Students/${f}`,
+						src: resolve(`/Careers/Students/${f}`),
 						name: displayName
 					};
 				});
