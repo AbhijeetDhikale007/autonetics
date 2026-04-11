@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from "$app/paths";
 </script>
 
 <svelte:head>
@@ -11,7 +12,7 @@
 	<!-- Background Image -->
 	<div class="absolute inset-0 z-0">
 		<img
-			src="/hero_background.png"
+			src={resolve("/hero_background.png")}
 			alt="Futuristic assembly line with robotic arm"
 			class="w-full h-full object-cover opacity-90 dark:opacity-60 transition-opacity duration-500"
 		/>
