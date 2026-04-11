@@ -1,3 +1,7 @@
 # allow crawling everything by default
 User-agent: *
 Disallow:
+allow: /public/
+
+Sitemap: https://autonetics.in/sitemap.xml
+Sitemap: https://abhijeetdhikale007.vercel.app/sitemap.xml
