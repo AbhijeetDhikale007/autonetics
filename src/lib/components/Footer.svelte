@@ -1,6 +1,7 @@
 <script lang="ts">
   const currentYear = new Date().getFullYear();
   import Ico from "./Ico.svelte";
+  import { resolve } from "$app/paths";
 </script>
 
 <footer
@@ -10,8 +11,12 @@
     <div class="grid grid-cols-1 md:grid-cols-3 md:gap-8 lg:gap-12 mb-16">
       <!-- Brand & Description -->
       <div class="flex flex-col gap-5">
-        <a href="/" class="flex items-center gap-2 group">
-          <img src="/logo.png" alt="Autonetics Automation" class="h-10" />
+        <a href={resolve("/")} class="flex items-center gap-2 group">
+          <img
+            src={resolve("/logo.png")}
+            alt="Autonetics Automation"
+            class="h-10"
+          />
         </a>
         <p
           class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed max-w-sm"
@@ -68,35 +73,35 @@
         <ul class="flex flex-col">
           <li>
             <a
-              href="/about"
+              href={resolve("/about")}
               class="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
               >About Us</a
             >
           </li>
           <li>
             <a
-              href="/services"
+              href={resolve("/services")}
               class="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
               >Our Services</a
             >
           </li>
           <li>
             <a
-              href="/training"
+              href={resolve("/training")}
               class="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
               >Training Programs</a
             >
           </li>
           <li>
             <a
-              href="/gallery"
+              href={resolve("/gallery")}
               class="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
               >Gallery</a
             >
           </li>
           <li>
             <a
-              href="/contact"
+              href={resolve("/contact")}
               class="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
               >Contact Us</a
             >
@@ -114,21 +119,21 @@
         <ul class="flex flex-col">
           <li>
             <a
-              href="/terms"
+              href={resolve("/terms")}
               class="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
               >Copyright & Terms</a
             >
           </li>
           <li>
             <a
-              href="/privacy"
+              href={resolve("/privacy")}
               class="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
               >Privacy Policy</a
             >
           </li>
           <li>
             <a
-              href="/sitemap.html"
+              href={resolve("/sitemap.html")}
               class="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
               >Sitemap</a
             >
