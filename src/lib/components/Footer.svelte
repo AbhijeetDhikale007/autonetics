@@ -8,7 +8,7 @@
   class="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300 relative z-20"
 >
   <div class="container mx-auto px-6 pt-16 pb-8">
-    <div class="grid grid-cols-1 md:grid-cols-3 md:gap-8 lg:gap-12 mb-16">
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8 lg:gap-12 mb-16">
       <!-- Brand & Description -->
       <div class="flex flex-col gap-5">
         <a href={resolve("/")} class="flex items-center gap-2 group">
@@ -66,7 +66,7 @@
       <!-- Quick Links -->
       <div>
         <h3
-          class="text-slate-900 dark:text-white font-semibold mb-3 text-lg tracking-tight"
+          class="text-slate-900 dark:text-white font-semibold mb-2 text-lg tracking-tight"
         >
           Quick Links
         </h3>
@@ -112,7 +112,7 @@
       <!-- Legal & Policies -->
       <div>
         <h3
-          class="text-slate-900 dark:text-white font-semibold mb-3 text-lg tracking-tight"
+          class="text-slate-900 dark:text-white font-semibold mb-2 text-lg tracking-tight"
         >
           Legal & Terms
         </h3>
