@@ -1,4 +1,10 @@
-# sv
+# Autonetic Automation Website In Svelte 5
+
+![Website Screenshot - Light](/static/Screenshot-light.png)
+
+![Website Screenshot - Dark](/static/Screenshot-dark.png)
+
+Autonetics Training Center provides PLC training, SCADA training, Automation training, Electrical design courses in Nashik
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
@@ -40,3 +46,7 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Author
+
+-   [@AbhijeetDhikale007](https://github.com/AbhijeetDhikale007)
