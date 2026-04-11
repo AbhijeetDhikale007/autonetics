@@ -133,7 +133,7 @@
           </li>
           <li>
             <a
-              href={resolve("/sitemap.html")}
+              href={resolve("/sitemap")}
               class="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium"
               >Sitemap</a
             >
