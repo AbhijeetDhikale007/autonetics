@@ -1,8 +1,8 @@
 # Autonetic Automation Website In Svelte 5
 
-![Website Screenshot - Light](/static/Screenshot-light.png)
+![Website Screenshot - Light](/static/screenshot-light.png)
 
-![Website Screenshot - Dark](/static/Screenshot-dark.png)
+![Website Screenshot - Dark](/static/screenshot-dark.png)
 
 Autonetics Training Center provides PLC training, SCADA training, Automation training, Electrical design courses in Nashik
 
