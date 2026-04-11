@@ -60,7 +60,7 @@
 
 			<div class="flex flex-wrap items-center gap-4">
 				<a
-					href="/services"
+					href={resolve("/services")}
 					class="px-8 py-4 rounded-full bg-blue-600 text-white font-medium shadow-lg shadow-blue-500/30 hover:bg-blue-700 hover:shadow-blue-500/50 hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2"
 				>
 					Explore Our Services
@@ -68,7 +68,7 @@
 				</a>
 
 				<a
-					href="/contact"
+					href={resolve("/contact")}
 					class="px-8 py-4 rounded-full bg-white dark:bg-slate-900 text-slate-900 dark:text-white border border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800 shadow-sm hover:-translate-y-0.5 transition-all duration-300"
 				>
 					Speak to an Engineer
