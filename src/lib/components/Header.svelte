@@ -37,7 +37,7 @@
 
 <header
 	class="fixed top-0 z-50 w-full
-		backdrop-blur-2xl bg-transparent dark:bg-transparent"
+		backdrop-blur-2xl bg-white/50 dark:bg-transparent"
 >
 	<div class="container mx-auto px-6 h-20 flex items-center justify-between">
 		<!-- Logo -->
