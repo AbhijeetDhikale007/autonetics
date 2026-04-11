@@ -16,12 +16,17 @@ GitHub Pages - [abhijeetdhikale007.github.io/autonetics](https://abhijeetdhikale
 
 ## Features
 
+-   **Home**: A home page of company.
 -   **About Us**: A brief introduction about company.
 -   **Our Services**: Services of company.
 -   **Training**: Listed my training courses which is provided by company.
+-   **Courses**: Separate pages for every courses.
 -   **Gallery**: Provided a images of inhouse training and college training.
 -   **Careers**: Provided details of career in this company with placed students details.
 -   **Contact Us**: Provided a contact form for visitors to get in touch with company.
+-   **Copyright and Terms**: A page for copyright and terms of company.
+-   **Privacy and Policies**: A page for privacy and policies of company.
+-   **Sitemap**: Sitemap page for this website.
 
 ## Technologies Used
 
@@ -30,10 +35,11 @@ GitHub Pages - [abhijeetdhikale007.github.io/autonetics](https://abhijeetdhikale
 -   [Vite 7.3.1](https://vite.dev) - Web Build Tool
 -   [Svelte Adapter Static 3.0.10](https://svelte.dev/docs/kit/adapter-static) - Svelte Build Tool
 -   [UnoCSS](https://unocss.dev/) - Atomic CSS Engine
--   [TypeScript 5.9.3](https://www.typescriptlang.org)
+-   [TypeScript 5.9.3](https://www.typescriptlang.org) - Typed Programming Language
 -   [Lenis](https://lenis.darkroom.engineering) - Smooth Scrolling
 -   [Iconify](https://icon-sets.iconify.design) - Icons
 
+##
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
 ## Creating a project
