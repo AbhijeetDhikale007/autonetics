@@ -54,7 +54,7 @@
 			{#each links as link}
 				<a
 					href={link.href}
-					class="text-xs font-small text-slate-900 dark:text-white/60 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+					class="text-xs font-small text-slate-900 dark:text-white/70 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
 				>
 					{link.name}
 				</a>
