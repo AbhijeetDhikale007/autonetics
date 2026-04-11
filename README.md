@@ -4,9 +4,9 @@
 
 ![Website Screenshot - Dark](/static/screenshot-dark.png)
 
-Autonetics Training Center provides PLC training, SCADA training, Automation training, Electrical design courses in Nashik
+Autonetics Training Center provides PLC training, SCADA training, Automation training, Electrical design courses in Nashik.
 
-## Published from Antigravity
+## Developed In Antigravity
 
 - This repository is developed in Google's Antigravity and published on GitHub.
 - [Google's Antigraviy](https://antigravity.google)
