@@ -27,22 +27,8 @@
 		class="container mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-12 items-center"
 	>
 		<div class="max-w-2xl">
-			<div
-				class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-400 text-sm font-semibold tracking-wide mb-6"
-			>
-				<span class="relative flex h-2 w-2">
-					<span
-						class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"
-					></span>
-					<span
-						class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"
-					></span>
-				</span>
-				Pioneering Automation
-			</div>
-
 			<h1
-				class="text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 dark:text-white leading-[1.1] mb-6 tracking-tight transition-colors duration-500"
+				class="text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 dark:text-white leading-[1.1] mt-15 mb-6 tracking-tight transition-colors duration-500"
 			>
 				Precision Engineering for a <span
 					class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-400"
